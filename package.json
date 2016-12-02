@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener Microservice for FCC challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fcmam5/url-shortner-microservice-fcc.git"
+  },
+  "author": "Fortas Abdeldjalil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fcmam5/url-shortner-microservice-fcc/issues"
+  },
+  "homepage": "https://github.com/Fcmam5/url-shortner-microservice-fcc#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.1"
+  }
+}
