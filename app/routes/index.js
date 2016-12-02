@@ -2,7 +2,7 @@ var urls = require('../../models/url');
 var Url = urls.model('UrlData');
 module.exports = function(app){
     app.get('/new/:url', function (req, res) {
-        var urlRegex = /^((https?|ftp):\/\/)?(\w+|\d+|\.)+\.(\w+)(\/(\w+|\d+|\.)+?)?$/i; //TODO: Work on it too
+        var urlRegex = /^((http(s)?|ftp):\/\/)?(\w+|\d+|\.)+\.(\w+)(\/(\w+|\d+|=|#|&|_|\-)+?)?$/i; //TODO: Work on it too
         var givenUrl = req.params.url;
         var sURL = {original: null};
         console.log(urlRegex.test(givenUrl));
